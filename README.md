@@ -28,7 +28,8 @@ end helloworld;
 ```
 
 Put an image in a pdf file:
-```procedure testImg is
+```
+procedure testImg is
  img varchar2(2000);
 begin
         pdf.FPDF('P','cm','A4');
