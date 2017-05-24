@@ -41,3 +41,5 @@ begin
       pdf.Output();
 end testImg;
 ```
+
+Note that it uses the ORDImage data type to place images in PDF documents, so if you are running Oracle XE (which doesn't include the ORDImage data type), you need to comment out the few procedures that deal with this data type (and obviously you will not be able to include images in your PDF documents...).
