@@ -25,8 +25,8 @@ begin
       pdf.Output();
 end helloworld;
 </code>
-
-Put an image in a pdf file
+<br>
+Put an image in a pdf file:<br>
 <code>
 procedure testImg is
  img varchar2(2000);
