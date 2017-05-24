@@ -26,9 +26,8 @@ begin
 end helloworld;
 </code>
 <br>
-Put an image in a pdf file:<br>
-<code>
-procedure testImg is
+Put an image in a pdf file:
+```procedure testImg is
  img varchar2(2000);
 begin
         pdf.FPDF('P','cm','A4');
@@ -39,4 +38,4 @@ begin
       pdf.Image(img,1, 1, 10);
       pdf.Output();
 end testImg;
-</code>
+```
