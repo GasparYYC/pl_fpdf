@@ -15,7 +15,7 @@ Required Environment
 
 Sample codes
 helloWord : Note that the "output" procedure calls automatically "ClosePdf".
-```
+```SQL
 procedure helloworld is
 begin
         pdf.FPDF('P','cm','A4');
@@ -28,7 +28,7 @@ end helloworld;
 ```
 
 Put an image in a pdf file:
-```
+```SQL
 procedure testImg is
  img varchar2(2000);
 begin
